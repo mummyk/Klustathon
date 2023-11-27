@@ -1,0 +1,22 @@
+flutter_native_splash:
+  android: true
+  ios: true
+
+  color: "#000000"
+  color_dark: "#FFFFFF"
+  image: assets/logo_light.png
+  image_dark: assets/logo_dark.png
+  android_12:
+    color: "#000000"
+    color_dark: "#FFFFFF"
+    image: assets/logo_light.png
+    image_dark: assets/logo_dark.png
+  fullscreen: true
+
+  # To hide the notification bar, use the fullscreen parameter.  Has no effect in web since web
+  # has no notification bar.  Defaults to false.
+  # NOTE: Unlike Android, iOS will not automatically show the notification bar when the app loads.
+  #       To show the notification bar, add the following code to your Flutter app:
+  #       WidgetsFlutterBinding.ensureInitialized();
+  #       SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual, overlays: [SystemUiOverlay.bottom, SystemUiOverlay.top], );
+  #fullscreen: true
